@@ -1,0 +1,119 @@
+{
+  "simpsons" : {
+    "courses" : {
+      "10001" : {
+        "id" : 10001,
+        "name" : "Math",
+        "teacher_id" : 1234
+      },
+      "10002" : {
+        "id" : 10002,
+        "name" : "Physics",
+        "teacher_id" : 5678
+      },
+      "10003" : {
+        "id" : 10003,
+        "name" : "Chemistry",
+        "teacher_id" : 9012
+      },
+      "10004" : {
+        "id" : 10004,
+        "name" : "Biology",
+        "teacher_id" : 1234
+      }
+    },
+    "grades" : {
+      "-KBNIF3XuUYw81zdzQmB" : {
+        "course_id" : 10001,
+        "course_name" : "Math",
+        "grade" : "B-",
+        "student_id" : 123
+      },
+      "-KBNIF3XuUYw81zdzQmC" : {
+        "course_id" : 10002,
+        "course_name" : "Physics",
+        "grade" : "C",
+        "student_id" : 123
+      },
+      "-KBNIF3XuUYw81zdzQmD" : {
+        "course_id" : 10001,
+        "course_name" : "Math",
+        "grade" : "B+",
+        "student_id" : 456
+      },
+      "-KBNIF3XuUYw81zdzQmE" : {
+        "course_id" : 10002,
+        "course_name" : "Physics",
+        "grade" : "A+",
+        "student_id" : 888
+      },
+      "-KBNIF3XuUYw81zdzQmF" : {
+        "course_id" : 10003,
+        "course_name" : "Chemistry",
+        "grade" : "A+",
+        "student_id" : 888
+      },
+      "-KBNIF3XuUYw81zdzQmG" : {
+        "course_id" : 10004,
+        "course_name" : "Biology",
+        "grade" : "D+",
+        "student_id" : 404
+      },
+      "-KBNIF3XuUYw81zdzQmH" : {
+        "course_id" : 10002,
+        "course_name" : "Physics",
+        "grade" : "B",
+        "student_id" : 404
+      },
+      "-KBNIF3XuUYw81zdzQmI" : {
+        "course_id" : 10002,
+        "course_name" : "Physics",
+        "grade" : "D-",
+        "student_id" : 456
+      }
+    },
+    "students" : {
+      "123" : {
+        "email" : "bart@fox.com",
+        "id" : 123,
+        "name" : "Bart",
+        "password" : "bartman"
+      },
+      "404" : {
+        "email" : "ralph@fox.com",
+        "id" : 404,
+        "name" : "Ralph",
+        "password" : "catfood"
+      },
+      "456" : {
+        "email" : "milhouse@fox.com",
+        "id" : 456,
+        "name" : "Milhouse",
+        "password" : "fallout"
+      },
+      "888" : {
+        "email" : "lisa@fox.com",
+        "id" : 888,
+        "name" : "Lisa",
+        "password" : "vegan"
+      }
+    },
+    "teachers" : {
+      "1234" : {
+        "grade" : 4,
+        "id" : 1234,
+        "name" : "Krabappel"
+      },
+      "5678" : {
+        "grade" : 2,
+        "id" : 5678,
+        "name" : "Hoover"
+      },
+      "9012" : {
+        "grade" : 13,
+        "id" : 9012,
+        "name" : "Apu"
+      }
+    }
+  }
+}
