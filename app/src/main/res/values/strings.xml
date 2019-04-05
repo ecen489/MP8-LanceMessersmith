@@ -7,6 +7,28 @@
     <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
     <string name="firebase_status_fmt">Firebase User: %s</string>
     <string name="signed_out">Signed Out</string>
+    <string name="push">Push</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="student_id">Student ID</string>
+    <string name="query2">Query 2</string>
+    <string name="query1">Query 1</string>
+    <string name="bart">Bart</string>
+    <string name="lisa">Lisa</string>
+    <string name="ralph">Ralph</string>
+    <string name="push2">Push</string>
+    <string name="course_id">Course ID</string>
+    <string name="subject">Subject</string>
+    <string name="grade">Grade</string>
+    <string name="milhouse">Milhouse</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="sign_in">sign_in</string>
+    <string name="pull">Pull</string>
+    <string name="create_account">create_account</string>
+    <string name="sign_out_main">sign out</string>
+    <string name="signed_out_main">Signed Out</string>
+    <string name="verifyemail">Verifyemail</string>
+    <string name="firebase_database_demo">Firebase DataBase Demo</string>
 
     <array name="genres">
         <item>Rock</item>

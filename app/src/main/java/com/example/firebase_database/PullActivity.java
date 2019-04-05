@@ -154,10 +154,10 @@ public class PullActivity extends AppCompatActivity {
     };
 
     public void LogoutClick(View view) { // Logout and go back to the Sign In Menu (MainActivity)
-        mAuth.signOut();
-        user = null;
+        //mAuth.signOut();
+        //user = null;
         startActivity(new Intent(PullActivity.this, MainActivity.class)); // not sure If This is needed
-        Toast.makeText(getApplicationContext(),"Logged Out",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),"Logged Out",Toast.LENGTH_SHORT).show();
     }
 
     public void PushClick(View view) { // Button click to go to Push Activity

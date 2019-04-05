@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="top|center"
+    style="?android:attr/buttonBarStyle"
     tools:context=".PullActivity">
 
     <LinearLayout
@@ -18,8 +19,12 @@
             android:id="@+id/button_q1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Query1"
+            android:text="@string/query1"
             android:onClick="query1Click"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@color/common_google_signin_btn_text_light_disabled"
+            android:layout_marginEnd ="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
             />
 
@@ -27,8 +32,10 @@
             android:id="@+id/button_q2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Query2"
+            android:text="@string/query2"
             android:onClick="query2Click"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@color/common_google_signin_btn_text_light_disabled"
             android:layout_weight="1"
             />
 
@@ -44,11 +51,11 @@
 
         <EditText
             android:id="@+id/userID"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:hint="Student ID"
+            android:hint="@string/student_id"
             android:layout_weight="2"
-            />
+            android:inputType="" />
 
     </LinearLayout>
 
@@ -66,12 +73,15 @@
 
         <Button
             android:id="@+id/logout"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign Out"
-            android:onClick="LogoutClick"
             android:layout_weight="2"
-            />
+            android:background="@color/common_google_signin_btn_text_light_disabled"
+            android:onClick="LogoutClick"
+            android:layout_marginEnd ="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/sign_out" />
 
         <Button
             android:id="@+id/pushActivityBtn"
@@ -79,7 +89,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:onClick="PushClick"
-            android:text="Push" />
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@color/common_google_signin_btn_text_light_disabled"
+            android:text="@string/push" />
     </LinearLayout>
 
 

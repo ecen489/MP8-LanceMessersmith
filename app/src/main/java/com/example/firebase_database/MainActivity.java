@@ -255,6 +255,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 findViewById(R.id.emailPasswordButtons).setVisibility(View.VISIBLE);
                 findViewById(R.id.emailPasswordFields).setVisibility(View.VISIBLE);
                 findViewById(R.id.signedInButtons).setVisibility(View.GONE);
+                findViewById(R.id.pullActivityBtn).setVisibility(View.GONE);
             }
         }
 

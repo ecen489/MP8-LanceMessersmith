@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    style="?android:attr/buttonBarStyle"
     android:weightSum="4">
 
     <LinearLayout
@@ -18,8 +19,8 @@
             android:id="@+id/titleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Firebase DataBase Demo"
-            android:textSize="30dp"
+            android:text="@string/firebase_database_demo"
+            android:textSize="30sp"
             />
 
         <TextView
@@ -27,7 +28,7 @@
             android:id="@+id/status"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="signed_out" />
+            android:text="@string/signed_out_main" />
 
 
 
@@ -40,7 +41,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pull"
+            android:text="@string/pull"
             android:id="@+id/pullActivityBtn"/>
 
 
@@ -67,7 +68,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="email"
+                android:hint="@string/email"
+                android:layout_marginEnd ="10dp"
+                android:layout_marginRight="10dp"
                 android:inputType="textEmailAddress" />
 
             <EditText
@@ -75,7 +78,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="password"
+                android:hint="@string/password"
                 android:inputType="textPassword" />
 
         </LinearLayout>
@@ -87,6 +90,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/emailPasswordFields"
             android:orientation="horizontal"
+            android:layout_marginEnd ="10dp"
+            android:layout_marginRight="10dp"
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
@@ -95,16 +100,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="sign_in"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@color/common_google_signin_btn_text_light_disabled"
+                android:layout_marginEnd ="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/sign_in"
                 />
 
             <Button
                 android:id="@+id/emailCreateAccountButton"
-
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@color/common_google_signin_btn_text_light_disabled"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="create_account"
+                android:text="@string/create_account"
                 />
 
         </LinearLayout>
@@ -127,7 +137,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0"
-                android:text="sign out"
+                android:text="@string/sign_out_main"
                 />
 
             <Button
@@ -136,7 +146,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0"
-                android:text="Verifyemail"
+                android:text="@string/verifyemail"
                 />
 
         </LinearLayout>

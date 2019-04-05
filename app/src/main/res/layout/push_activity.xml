@@ -8,17 +8,13 @@
     android:gravity="top|center"
     tools:context=".PushActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="20sp">
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="94dp"
             android:orientation="horizontal"
             android:id="@+id/radio_button"
+            android:paddingTop="@android:dimen/app_icon_size"
             android:onClick="radioClick">
 
             <RadioButton
@@ -26,30 +22,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Bart" />
+                android:text="@string/bart" />
 
             <RadioButton
                 android:id="@+id/Lisa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Lisa" />
+                android:text="@string/lisa" />
 
             <RadioButton
                 android:id="@+id/Ralph"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Ralph" />
+                android:text="@string/ralph" />
 
             <RadioButton
                 android:id="@+id/Milhouse"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Milhouse" />
+                android:text="@string/milhouse" />
         </RadioGroup>
-    </LinearLayout>
 
 
     <LinearLayout
@@ -60,11 +55,11 @@
 
         <EditText
             android:id="@+id/Grade"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="text"
             android:layout_weight="2"
-            android:hint="Grade"
+            android:hint="@string/grade"
             />
 
     </LinearLayout>
@@ -76,8 +71,8 @@
         android:padding="10sp">
         <EditText
             android:id="@+id/Subject"
-            android:layout_width="wrap_content"
-            android:hint="Subject"
+            android:layout_width="0dp"
+            android:hint="@string/subject"
             android:inputType="text"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -92,13 +87,12 @@
 
         <EditText
             android:id="@+id/CourseID"
-            android:hint="Course ID"
-            android:layout_width="wrap_content"
+            android:hint="@string/course_id"
+            android:layout_width="0dp"
             android:inputType="text"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             />
-
 
     </LinearLayout>
 
@@ -110,9 +104,9 @@
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Push"
+            android:text="@string/push"
             android:onClick="PushClick"
             android:layout_weight="1"
             />
